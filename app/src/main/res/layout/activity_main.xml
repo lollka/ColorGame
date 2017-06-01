@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.lollka.spele.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sakt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="Sākt"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rez"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/tim"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0:00"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/ans"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="SPIED SĀKT"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/beigt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="Beigt"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <Button
+            android:id="@+id/green"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#1dff00"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#0033ff"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="499dp" />
+
+        <Button
+            android:id="@+id/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#ffff00"
+            tools:layout_editor_absoluteX="276dp"
+            tools:layout_editor_absoluteY="499dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/krasa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="259dp" />
+    </LinearLayout>
+
+</LinearLayout>
